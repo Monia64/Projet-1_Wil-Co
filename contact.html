@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Wild & Co !</title>
+            <link rel="stylesheet" href="common.css">
+            <link rel="stylesheet" href="contact.css">
+            <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Manjari:700&display=swap" rel="stylesheet">
+        </head>
+        <body>
+    
+            <header class="header">
+                <div class="header_div">
+                    <div class="div_logoWCS">
+                        <img class="logoWCSHeader" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="Logo Header WCS" >
+                    </div>
+    
+                    <div class="titreheader">
+                        <h1 class="wild_Co">Wild & Co</h1>  
+                    </div>       
+                </div>
+                <img class= "picture" src="https://imagizer.imageshack.com/img922/6259/r9AhN8.jpg" alt="Header Photo" >
+    
+            </header>
+        
+            <nav class="navflex">
+                <div class="navbloc">
+                    <a href="index.html" class="title1a">
+                        <h2 class="title1">Annuaire<span class="spanh2"> des entreprises tech du Pays Basque</span></h2>
+                    </a>
+                </div>
+    
+                <div class="navbloc">
+                    <a href="contact.html" class="title2a">
+                        <h2 class="title2">Contact</h2>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="contactblock">
+                    <h2 class="underline">Contactez-nous :</h2>
+                    <form class="flex-col" action="/page-de-contact" method="post">
+                        <div class="formblock">
+                            <input type="text" placeholder=" Nom Prénom:" id="name" name="user_name">
+                        </div>
+                        <div class="formblock">
+                            <input type="email" placeholder="E-mail:" id="mail" name="user_mail">
+                        </div>
+                        <div class="formblock">
+                            <textarea placeholder="Votre message ici:" id="msg" name="user_message"></textarea>
+                        </div>
+                        <button class="self-center">Envoyer le message!</button>
+                    </form>
+                </div>
+
+                <div class="carteblock">
+                    <h2 class="underline">Carte des entreprises :</h2>
+                    <div class= "map">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1lJRLeg9bmICLYTTcDPLE9r0FmDaVuS5p" width="640" height="480"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="footer">
+                <div class="zone1">
+                    <a href="mailto:assistance.apb@example.com" >Assistance</a>
+                    <a href="about.html">A propos</a>
+                </div>
+                <div class="zone2">
+                    <a href="https://wildcodeschool.fr" target="_blank">
+                        <img src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="Logo Footer WCS" class="LogoWCS">
+                    </a>
+                </div>
+        </footer>
+        </body>
+    </html>
