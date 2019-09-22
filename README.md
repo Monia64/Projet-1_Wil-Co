@@ -1,4 +1,4 @@
-# Projet-1_Wil-Co (c'est le moment de trouver ton stage).
+# Projet-1_Wild-Co (c'est le moment de trouver ton stage).
 
 Nous devions créer un site contenant l'annuaire des entreprises tech du Pays Basque. L’objectif était de donner une vision sur l'écosystème tech du BAB et de ses alentours.
 Nous avons travaillé ensemble sur le wireframe que nous avons réalisé à la main puis nous nous sommes répartis les tâches :
