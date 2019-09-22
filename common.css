@@ -1,0 +1,209 @@
+*,*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+/* header */
+.header {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.header_div{
+    display:flex;
+    height: 25%;
+}
+
+/* block header */
+
+.div_logoWCS {
+    display:none;
+}
+
+.titreheader{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+/*mis en forme header*/
+
+.wild_Co{
+    font-size : 400%;
+    font-family: 'Manjari', sans-serif;
+    color: #e0dfdc;
+    background-color: #333;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+    
+
+.navflex{
+    margin: 0;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.navbloc{
+    width: 50%;
+}
+
+.title1, .title2{
+    background: rgb(226, 226, 226);
+    border: solid 1px rgb(192, 191, 191);
+    box-shadow: 0 10px 9px -3px rgba(220, 220, 220, 1);
+    width: 100%;
+    margin: 0 0 20px 0;
+    color: rgb(77, 77, 77);
+    padding-top: 10px;
+    font-size: 24px;
+    height: 70px;
+}
+.title1{
+    background: white;
+    padding-top: 10px;
+}
+
+.title2a h2:hover{
+    background: white;
+    font-size: 26px;
+    box-shadow: inset 0 0 10px rgba(220, 220, 220, 1);
+    transition: 0.3s;
+}
+
+.title1a,
+.title2a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    height: 70px;
+}
+
+.picture{
+    display: none;
+}
+
+
+/*footer*/
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    font-size: 1em;
+    background: rgb(43, 41, 41);
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.zone1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.zone1 a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.zone1 a:hover{
+    color: rgb(150,150,150);
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.LogoWCS{
+    width:7em;
+    height:4em;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+}
+
+
+.spanh2{
+    display: none;
+}  
+
+.LogoWCS:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    }
+@media only screen and (min-width: 768px){
+.picture{
+    display:block;
+    width: 100%;
+    height: 55%;
+    }
+.div_logoWCS {
+    display:block;
+    width : 30%;
+    text-align:center;
+    background: #333;
+    }
+.titreheader{
+    width : 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    }
+.logoWCSHeader{
+    width: 15em;
+    height: 8em;
+    padding : 10% 5% 5% 5%;
+    }
+.logoWCS:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    }
+}
+
+
+@media only screen and (min-width: 900px){
+    .spanh2{
+        display: block;
+    }
+
+
+.logoWCS{
+    height : 4em;
+    width: 10em;
+    margin-right: 30px;
+}
+
+.logoWCS:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    }
+
+}
