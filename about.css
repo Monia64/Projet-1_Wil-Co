@@ -1,0 +1,60 @@
+*,*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.aboutbloc,
+.sourcesbloc{
+    border: solid 1px #D3D3D3;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 4px rgba(220, 220, 220, 0.7);
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.sourcesbloc{
+    margin-bottom: 30px;
+}
+
+.aboutbloc{
+    margin-top: 100px;
+}
+.title1{
+    background: rgb(226,226,226);
+}
+
+p a{
+    text-decoration: none;
+    color:blue;
+    font-size: 16px;
+}
+
+p a:hover{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.title1a h2:hover{
+    background: white;
+    font-size: 26px;
+    box-shadow: inset 0 0 10px rgba(220, 220, 220, 1);
+    transition: 0.3s;
+}
+
+.spanh2{
+    display: none;
+}
+
+@media only screen and (min-width: 900px){
+    .spanh2{
+        display: block;
+    }
+
+
+
+}
